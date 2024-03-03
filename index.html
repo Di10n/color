@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Coloring Book</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="imagetracer_v1.2.6.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="navbar">
+        <div class="title">Four Color Theorem</div>
+    </div>
+    <div class="instructions" id="hidethis">
+        Generate a coloring page!
+        <br>
+        <br>
+        1. Choose how many colors you want to use
+        <br>
+        2. Upload an image to make a coloring page out of
+        <br>
+        3. Color by pressing the buttons or keys on your keyboard
+    </div>
+    <div class="uploadcontainer2">
+        <select id="mode" class="minimal">
+            <option value="4">Four Color Theorem</option>
+            <option value="8">8 Colors</option>
+            <option value="16">16 Colors</option>
+            <option value="36">36 Colors</option>
+        </select>
+    </div>
+    <div class="uploadcontainer" id="upload">
+        <input type="file" id="fileInput" name="image" accept="image/png, image/jpeg"/>
+    </div>
+    <div class="megacontainer">
+        <div id="svgcontainer" class="image"></div>
+    </div>
+    <div id="buttons" class="buttons"></div>
+  </body>
+</html>
+<script src="imagetracer_v1.2.6.js"></script>
