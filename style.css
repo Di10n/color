@@ -17,13 +17,13 @@ body {
     align-items: center;
     height: 40px;
     width: 100%;
-    background-color: burlywood;
+    background-color: black;
     padding: 10px;
     padding-left: 25px;
 }
 
 .title {
-    color: black;
+    color: white;
     font-size: 24px;
     font-family: montserrat;
 }
@@ -64,7 +64,7 @@ input[type="file"]::before {
     pointer-events: none;
     /*   top: 11px; */
     left: 40px;
-    color: black;
+    color: #0964b0;
     content: "Upload File";
 }
 
@@ -76,7 +76,7 @@ input[type="file"]::after {
     height: 20px;
     width: 20px;
     content: "";
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000000'%3E%3Cpath d='M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zM7 9l1.41 1.41L11 7.83V16h2V7.83l2.59 2.58L17 9l-5-5-5 5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230964B0'%3E%3Cpath d='M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zM7 9l1.41 1.41L11 7.83V16h2V7.83l2.59 2.58L17 9l-5-5-5 5z'/%3E%3C/svg%3E");
 }
 
 /* ------- From Step 1 ------- */
@@ -87,7 +87,7 @@ input[type="file"]::file-selector-button {
     padding: 0 16px;
     height: 40px;
     cursor: pointer;
-    background-color: burlywood;
+    background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.16);
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
     transition: background-color 100ms;
@@ -95,12 +95,12 @@ input[type="file"]::file-selector-button {
 
 /* file upload button hover state */
 input[type="file"]::file-selector-button:hover {
-    background-color: bisque;
+    background-color: #f3f4f6;
 }
 
 /* file upload button active state */
 input[type="file"]::file-selector-button:active {
-    background-color: bisque;
+    background-color: #e5e7eb;
 }
 
 .uploadcontainer {
@@ -114,7 +114,7 @@ input[type="file"]::file-selector-button:active {
 select {
 
     /* styling */
-    background-color: burlywood;
+    background-color: white;
     border: thin solid gray;
     border-radius: 4px;
     display: inline-block;
@@ -182,12 +182,4 @@ select:-moz-focusring {
     font-family: opensans;
     margin-left: 40px;
     margin-top: 40px;
-}
-
-body {
-    background-color: white;
-}
-
-.gif {
-    margin: 0px 40px;
 }

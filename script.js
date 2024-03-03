@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         document.getElementById("mode").remove();
         document.getElementById("hidethis").remove();
         document.getElementById("upload").remove();
-        document.getElementById("gif").remove();
     });
     document.getElementById("mode").addEventListener('change', function() {
         options.numberofcolors = this.value;
